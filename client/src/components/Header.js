@@ -12,6 +12,7 @@ class Header extends Component {
       case false:
         return (
           <li>
+            {/* <div class="g-signin2" data-onsuccess="onSignIn" /> */}
             <a href="/auth/google">Login With Google</a>
           </li>
         );
